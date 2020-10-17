@@ -9,4 +9,5 @@ Rails.application.routes.draw do
     end
   end
   resources :users, only: :show
+  resources :orders, only: :show
 end
